@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { AnimatePresence, motion, type Variants } from "framer-motion";
 import { makeImagePath } from "../../utils";
 import { useMemo, useState } from "react";
-import noImage from "/Users/jiin972/Documents/newflix/src/assets/images/noimage.png";
+import noImage from "../assets/images/noimage.png";
 import type { IGetResult, PATH_PARAM } from "../../Api/config";
 import {
   getTvShow,

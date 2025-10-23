@@ -11,7 +11,7 @@ import {
   type IMovie,
   type MovieCategory,
 } from "../../Api/MovieApi";
-import noImage from "/Users/jiin972/Documents/newflix/src/assets/images/noimage.png";
+import noImage from "../src/assets/images/noimage.png";
 
 const DEFAULT_IMAGE_URL = noImage;
 
