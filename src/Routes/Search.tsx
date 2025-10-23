@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { AnimatePresence, motion } from "framer-motion";
 import { makeImagePath } from "../utils";
 import { useMatch, useNavigate, useSearchParams } from "react-router-dom";
-import noImage from "/Users/jiin972/Documents/newflix/src/assets/images/noimage.png";
+import noImage from "../assets/images/noimage.png";
 import MovieModal from "../Components/MoviePart/MovieModal";
 import TvshowModal from "../Components/TvshowPart/TvshowModal";
 
