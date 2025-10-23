@@ -8,7 +8,7 @@ import {
   type IGetMovieDetailResult,
 } from "../../Api/MovieApi";
 import type { ICast } from "../../Api/config";
-import noImage from "../assets/images/noimage.png";
+import noImage from "../../assets/images/noimage.png";
 
 const Overlay = styled(motion.div)`
   position: fixed;

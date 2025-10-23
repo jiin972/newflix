@@ -4,7 +4,6 @@ import styled from "styled-components";
 import { AnimatePresence, motion, type Variants } from "framer-motion";
 import { makeImagePath } from "../../utils";
 import { useMemo, useState } from "react";
-import noImage from "../assets/images/noimage.png";
 import type { IGetResult, PATH_PARAM } from "../../Api/config";
 import {
   getTvShow,
@@ -12,6 +11,7 @@ import {
   type ITvshow,
   type TvshowCategory,
 } from "../../Api/TvshowApi";
+import noImage from "../../assets/images/noimage.png";
 
 const DEFAULT_IMAGE_URL = noImage;
 
