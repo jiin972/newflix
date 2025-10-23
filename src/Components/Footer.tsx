@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 const FooterBox = styled.div`
   width: 100%;
-  margin-top: 80px;
-  padding: 40px 0;
+  margin-top: 180px;
+  padding: 50px 0;
   background-color: black;
 `;
 const Box = styled.div`
@@ -11,7 +11,7 @@ const Box = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
+  font-size: 0.8vw;
 `;
 
 function Footer() {
@@ -19,7 +19,7 @@ function Footer() {
     <>
       <FooterBox>
         <Box>
-          <span>©Copyright 2025. Seongjin All right reserved.</span>
+          <span>© Copyright 2025 Seongjin All right reserved</span>
         </Box>
       </FooterBox>
     </>
